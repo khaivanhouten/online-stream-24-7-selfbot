@@ -1,54 +1,29 @@
-```markdown
-# RPC Discord 24/7
+# Rpc Discord 24/7
 
-🌀 **RPC Discord 24/7** adalah bot self-hosted yang dirancang untuk menampilkan status streaming 24/7 di Discord. Sempurna untuk membangun kehadiran konstan di antara teman dan komunitas Anda!
+**Rpc Discord 24/7** adalah sebuah selfbot yang memungkinkan Anda untuk membuat status "Streaming" di Discord selama 24/7. Dengan ini, profil Discord Anda akan selalu terlihat aktif dan profesional!
 
-## 📦 Instalasi
+## Instalasi
 
-1. **Clone repositori ini**
+1. Clone repositori ini atau unduh sebagai ZIP.
+2. Jalankan perintah berikut untuk menginstal dependensi yang diperlukan:
     ```bash
-    git clone https://github.com/username/repository-name.git
-    cd repository-name
+    npm install discord.js-selfbot-13
     ```
+3. Edit file konfigurasi sesuai dengan kebutuhan Anda.
 
-2. **Pasang dependencies**
-    ```bash
-    npm install discord.js-selfbot-v13
-    ```
+## Cara Penggunaan
 
-## 🔧 Konfigurasi
-
-1. **Buka file konfigurasi** `config.json` dan masukkan token bot Anda serta pesan status streaming yang Anda inginkan:
-    ```json
-    {
-        "token": "YOUR_DISCORD_TOKEN",
-        "statusMessage": "Streaming 24/7!"
-    }
-    ```
-
-2. **Jalankan Bot**
+1. Setelah instalasi selesai, jalankan bot dengan perintah:
     ```bash
     node index.js
     ```
+2. Bot Anda sekarang akan menampilkan status "Streaming" 24/7 di Discord.
 
-## 🚀 Fitur
+## Catatan
 
-- **Status Streaming 24/7**: Menampilkan status streaming Anda di Discord kapan pun, di mana pun.
-- **Self-Bot**: Kendalikan sepenuhnya dari akun Discord Anda sendiri.
+- Harap diingat bahwa penggunaan selfbot bertentangan dengan TOS Discord. Gunakan dengan risiko Anda sendiri.
+- Buat status Anda lebih menarik dengan menambahkan tautan atau teks kustom!
 
-## 🛠 Teknologi yang Dipakai
+## Dibuat Oleh
 
-- **discord.js-selfbot-v13**: Library Discord.js khusus untuk fitur selfbot.
-
-## 🎨 Dibuat Oleh
-
-Dikembangkan dengan ❤️ oleh **khaivvanhoutenn**.
-
-## 📜 Lisensi
-
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
-
----
-
-Tetap terhubung dan tampil aktif sepanjang waktu dengan RPC Discord 24/7! 🌟
-```
+Proyek ini dibuat dengan penuh dedikasi oleh **Khaivanhoutenn**.
