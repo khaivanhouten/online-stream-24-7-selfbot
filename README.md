@@ -7,7 +7,7 @@
 1. Clone repositori ini atau unduh sebagai ZIP.
 2. Jalankan perintah berikut untuk menginstal dependensi yang diperlukan:
     ```bash
-    npm install discord.js-selfbot-13
+    npm install discord.js-selfbot-v13
     ```
 3. Edit file konfigurasi sesuai dengan kebutuhan Anda.
 
